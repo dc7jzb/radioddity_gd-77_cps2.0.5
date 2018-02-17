@@ -23,8 +23,8 @@ internal class Class19
 	private const int MaxWriteTimeout = 1000;
 	private const int MaxBuf = 160;
 	private const float IndexListPercent = 5f;
-	private const int HID_VID = 5538;
-	private const int HID_PID = 115;
+    private const int HID_VID = 0x152A;//0x152A 0x0073
+    private const int HID_PID = 0x0073;
 	private static readonly byte[] CMD_ENDR =   Encoding.ASCII.GetBytes("ENDR");
 	private static readonly byte[] CMD_ENDW =   Encoding.ASCII.GetBytes("ENDW");
 	private static readonly byte[] CMD_ACK=     new byte[1] {65};
@@ -121,7 +121,7 @@ internal class Class19
 		SpecifiedDevice specifiedDevice = null;
 		try
 		{
-			specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(5538, 115);//0x152A 0x0073
+            specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(0x152A, 0x0073);//0x152A 0x0073
 			if (specifiedDevice == null)
 			{
 				if (this.OnFirmwareUpdateProgress != null)
@@ -562,7 +562,7 @@ internal class Class19
 		array3[4] = (byte)(hour / 10 << 4 | hour % 10);
 		array3[5] = (byte)(minute / 10 << 4 | minute % 10);
 		Array.Copy(array3, 0, array2, Class15.ADDR_DEVICE_INFO + Class15.OFS_LAST_PRG_TIME, 6);
-		SpecifiedDevice specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(5538, 115);
+        SpecifiedDevice specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(0x152A, 0x0073);//0x152A 0x0073
 		if (specifiedDevice == null)
 		{
 			if (this.OnFirmwareUpdateProgress != null)
