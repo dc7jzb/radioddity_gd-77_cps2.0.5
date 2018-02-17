@@ -51,7 +51,7 @@ namespace DMR
 
 			public ZoneOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(ZoneOne);
 				this.name = new byte[16];
 				this.chList = new ushort[16];
@@ -204,7 +204,7 @@ namespace DMR
 
 			public Zone()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.zoneIndex = new byte[32];
@@ -563,7 +563,7 @@ namespace DMR
 
 			public BasicZone()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 			}
 
@@ -1160,7 +1160,7 @@ namespace DMR
 
 		public ZoneForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -1493,7 +1493,7 @@ namespace DMR
 
 		static ZoneForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ZoneForm.SPACE_ZONE = Marshal.SizeOf(typeof(ZoneOne));
 			ZoneForm.basicData = new BasicZone();
 			ZoneForm.data = new Zone();

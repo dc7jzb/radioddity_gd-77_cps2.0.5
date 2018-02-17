@@ -47,13 +47,13 @@ namespace DMR
 
 		public WaitForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 		}
 
 		public WaitForm(string info, int timeout)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.InitializeComponent();
 			base.Scale(Class15.smethod_6());

@@ -59,7 +59,7 @@ namespace DMR
 
 			public NumKeyContact()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.contact = new ushort[10];
 			}
@@ -149,7 +149,7 @@ namespace DMR
 
 		public DigitalKeyContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.dicCom = new Dictionary<string, string>();
 			//base._002Ector();
 			this.method_2();
@@ -281,7 +281,7 @@ namespace DMR
 
 		static DigitalKeyContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			DigitalKeyContactForm.SZ_DIGIT_KEY_TEXT = "Number Key";
 			DigitalKeyContactForm.data = new NumKeyContact();
 		}

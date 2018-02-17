@@ -15,7 +15,7 @@ namespace DMR
 
 		static Log()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			Log.logFile = Application.StartupPath + "\\Log.txt";
 		}
 	}

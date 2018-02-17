@@ -127,7 +127,7 @@ namespace DMR
 
 			public Encrypt()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.keyIndex = new byte[2];
 				this.reserve = new byte[4];
@@ -318,7 +318,7 @@ namespace DMR
 
 		public EncryptForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_4();
 			base.Scale(Class15.smethod_6());
@@ -704,7 +704,7 @@ namespace DMR
 
 		static EncryptForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			EncryptForm.SZ_ENCRYPT_TYPE = new string[2]
 			{
 				"None",

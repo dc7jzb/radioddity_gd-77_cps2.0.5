@@ -787,7 +787,7 @@ namespace DMR
 
 			public GeneralSet()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.radioName = new byte[8];
 				this.radioId = new byte[4];
@@ -2037,7 +2037,7 @@ namespace DMR
 
 		public GeneralSetForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -2145,7 +2145,7 @@ namespace DMR
 
 		static GeneralSetForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			GeneralSetForm.SZ_MONITOR_TYPE = new string[2]
 			{
 				"Open Squelch",

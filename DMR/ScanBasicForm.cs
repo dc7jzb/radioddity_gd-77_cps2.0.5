@@ -129,7 +129,7 @@ namespace DMR
 
 			public ScanBasic()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.reserve = 65535;
 			}
@@ -233,7 +233,7 @@ namespace DMR
 
 		public ScanBasicForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_1();
 			base.Scale(Class15.smethod_6());
@@ -603,7 +603,7 @@ namespace DMR
 
 		static ScanBasicForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ScanBasicForm.SCL_VOTE_HANG = 0.25m;
 			ScanBasicForm.DefaultScanBasic = new ScanBasic();
 			ScanBasicForm.data = new ScanBasic();

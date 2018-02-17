@@ -14,7 +14,7 @@ namespace DMR
 
 		public FirmwareUpdateProgressEventArgs(float Percentage, string Message, bool Failed, bool Closed)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.Percentage = Percentage;
 			this.Message = Message;
 			this.Failed = Failed;

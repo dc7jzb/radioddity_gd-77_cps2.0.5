@@ -578,7 +578,7 @@ namespace DMR
 
 			public Dtmf()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.selfId = new byte[8];
 				this.killCode = new byte[16];
@@ -896,7 +896,7 @@ namespace DMR
 
 		public DtmfForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_1();
 			base.Scale(Class15.smethod_6());
@@ -1569,7 +1569,7 @@ namespace DMR
 
 		static DtmfForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			DtmfForm.SZ_DECODE_RESP = new string[4]
 			{
 				"None",

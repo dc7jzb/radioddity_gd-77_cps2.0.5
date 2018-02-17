@@ -28,7 +28,7 @@ internal class Class8 : ListBox
 
 	public Class8()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		this.tip = new ToolTip();
 		//base._002Ector();
 	}

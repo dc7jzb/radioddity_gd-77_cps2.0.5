@@ -244,7 +244,7 @@ namespace DMR
 
 			public EmergencyOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(EmergencyOne);
 				this.name = new byte[8];
 			}
@@ -357,7 +357,7 @@ namespace DMR
 
 			public Emergency()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.emgList = new EmergencyOne[32];
@@ -507,7 +507,7 @@ namespace DMR
 
 			public EmergencyEx()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.revertCh = new ushort[32];
 			}
@@ -1077,7 +1077,7 @@ namespace DMR
 
 		public EmergencyForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -1252,7 +1252,7 @@ namespace DMR
 
 		static EmergencyForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			EmergencyForm.SZ_ALARM_TYPE = new string[4]
 			{
 				"Disable",

@@ -75,7 +75,7 @@ namespace DMR
 
 			public DtmfContactOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this.name = new byte[16];
 				this.code = new byte[16];
 			}
@@ -178,7 +178,7 @@ namespace DMR
 
 			public DtmfContact()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.contact = new DtmfContactOne[32];
@@ -270,7 +270,7 @@ namespace DMR
 
 		public DtmfContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_3();
 			base.Scale(Class15.smethod_6());
@@ -455,7 +455,7 @@ namespace DMR
 
 		static DtmfContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			DtmfContactForm.data = new DtmfContact();
 		}
 	}

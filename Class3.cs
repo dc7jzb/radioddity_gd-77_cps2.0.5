@@ -11,7 +11,7 @@ internal class Class3 : Panel
 
 	public Class3() : base()
 	{
-		//Class21.mKf3Qywz2M1Yy();
+		
 		////base._002Ector();
 	}
 }

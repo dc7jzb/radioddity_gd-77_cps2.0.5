@@ -12,7 +12,7 @@ public class Class13
 
 	public Class13(int int_0, int int_1, int int_2, decimal decimal_0, int int_3)
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 
 		this.method_1(int_0);
 		this.method_3(int_1);

@@ -35,7 +35,9 @@ namespace UsbLibrary
 
 		public bool SendData(byte[] data)
 		{
+#if SHOW_USB_DATA
             Console.WriteLine("SendData " + SpecifiedDevice.ByteArrayToString(data));
+#endif
 			SpecifiedOutputReport specifiedOutputReport = new SpecifiedOutputReport(this);
 			specifiedOutputReport.SendData(data);
 			try
@@ -87,7 +89,9 @@ namespace UsbLibrary
 		public bool ReceiveData(byte[] data)
 		{
             bool retVal = base.BeginAsyncRead(data);
+#if SHOW_USB_DATA
             Console.WriteLine("ReceiveData " + SpecifiedDevice.ByteArrayToString(data));
+#endif
             return retVal;
 		}
 
@@ -98,7 +102,7 @@ namespace UsbLibrary
 
 		public SpecifiedDevice() : base()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 		}
 	}

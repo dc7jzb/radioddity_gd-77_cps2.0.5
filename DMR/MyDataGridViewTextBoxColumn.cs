@@ -34,7 +34,7 @@ namespace DMR
 
 		public MyDataGridViewTextBoxColumn()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.CellTemplate = new MyDataGridViewTextBoxCell();
 			this.MaxByteLength = 2147483647;

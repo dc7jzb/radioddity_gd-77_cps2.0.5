@@ -95,7 +95,7 @@ namespace UsbLibrary
 
 			public DeviceBroadcastInterface()
 			{
-				//Class21.mKf3Qywz2M1Yy();
+				
 			}
 		}
 
@@ -229,12 +229,12 @@ namespace UsbLibrary
 
 		public Win32Usb()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		static Win32Usb()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			Win32Usb.NullHandle = IntPtr.Zero;
 			Win32Usb.InvalidHandleValue = new IntPtr(-1);
 		}

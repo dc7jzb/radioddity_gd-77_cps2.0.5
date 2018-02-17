@@ -15,7 +15,7 @@ namespace Common
 
 		private AutoClosingMessageBox(string text, string caption, int timeout)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			////base._002Ector();
 			this._caption = caption;
 			this._timeoutTimer = new System.Threading.Timer(this.method_0, null, timeout, -1);

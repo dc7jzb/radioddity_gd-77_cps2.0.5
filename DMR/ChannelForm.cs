@@ -115,7 +115,7 @@ namespace DMR
 
 			public ChModeChangeEventArgs(int chIndex, int chMode)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.ChIndex = chIndex;
 				this.ChMode = chMode;
@@ -1388,7 +1388,7 @@ namespace DMR
 
 			public ChannelOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(ChannelOne);
 				this.name = new byte[16];
 			}
@@ -1602,7 +1602,7 @@ namespace DMR
 
 			public Channel()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.chIndex = new byte[128];
@@ -2556,7 +2556,7 @@ namespace DMR
 
 		public ChannelForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_18();
 			base.Scale(Class15.smethod_6());
@@ -4388,7 +4388,7 @@ namespace DMR
 
 		static ChannelForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ChannelForm.SPACE_CH = Marshal.SizeOf(typeof(ChannelOne));
 			ChannelForm.SPACE_CH_GROUP = 16 + ChannelForm.SPACE_CH * 128;
 			ChannelForm.SZ_CH_MODE = new string[2]

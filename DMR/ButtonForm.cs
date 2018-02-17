@@ -206,7 +206,7 @@ namespace DMR
 
 			public SideKey()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 			}
 		}
@@ -301,7 +301,7 @@ namespace DMR
 
 			public OneTouch()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.oneTouchList = new OneTouchOne[6];
@@ -790,7 +790,7 @@ namespace DMR
 
 		public ButtonForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.dicCom = new Dictionary<string, string>();
 			//base._002Ector();
 			this.method_0();
@@ -1136,7 +1136,7 @@ namespace DMR
 
 		static ButtonForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ButtonForm.SZ_BUTTON_ITEM = new string[23]
 			{
 				"Unassigned",

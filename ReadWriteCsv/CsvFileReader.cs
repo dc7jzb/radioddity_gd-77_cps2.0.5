@@ -9,20 +9,20 @@ namespace ReadWriteCsv
         public CsvFileReader(Stream stream)
             : base(stream)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector(stream);
 		}
 
         public CsvFileReader(string filename)
             : base(filename)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector(filename);
 		}
 
 		public CsvFileReader(string path, Encoding encoding) : base( path,  encoding)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector(path, encoding);
 		}
 

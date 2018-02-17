@@ -105,7 +105,7 @@ namespace DMR
 
 			public BootItem()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.reserve = new byte[2];
 				this.bootPwd = new byte[3];
@@ -157,7 +157,7 @@ namespace DMR
 
 			public BootContent()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.booLine1 = new byte[16];
 				this.booLine2 = new byte[16];
@@ -395,7 +395,7 @@ namespace DMR
 
 		public BootItemForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -441,7 +441,7 @@ namespace DMR
 
 		static BootItemForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			BootItemForm.MIN_BOOT_SCREEN = 0;
 			BootItemForm.MAX_BOOT_SCREEN = 1;
 			BootItemForm.SZ_BOOT_SCREEN = new string[2]

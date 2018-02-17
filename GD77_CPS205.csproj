@@ -70,7 +70,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Class20.cs" />
-    <Compile Include="Class21.cs" />
     <Compile Include="Class3.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -20,13 +20,13 @@ namespace DMR.Properties
 
 		public Settings()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 		}
 
 		static Settings()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			Settings.defaultInstance = (Settings)SettingsBase.Synchronized(new Settings());
 		}
 	}

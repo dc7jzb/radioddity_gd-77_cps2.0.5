@@ -818,7 +818,7 @@ namespace DMR
 
 			public MenuSet()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 			}
 		}
 
@@ -1102,7 +1102,7 @@ namespace DMR
 
 		public MenuForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_2();
 			base.Scale(Class15.smethod_6());
@@ -1690,7 +1690,7 @@ namespace DMR
 
 		static MenuForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			MenuForm.SZ_KEY_LOCK_TIME = new string[4]
 			{
 				"Manual",

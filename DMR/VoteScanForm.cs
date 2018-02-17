@@ -35,7 +35,7 @@ namespace DMR
 
 		public VoteScanForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.data = new byte[40];
 			//base._002Ector();
 			this.InitializeComponent();

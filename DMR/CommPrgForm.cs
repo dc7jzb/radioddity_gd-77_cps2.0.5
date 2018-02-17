@@ -79,7 +79,7 @@ namespace DMR
 
 		public CommPrgForm()
 		{
-			//Class21.mKf3Qywz2M1Yy();
+			
 			this.firmwareUpdate = new Class9();
 			this.portComm = new Class10();
 			this.hidComm = new Class19();

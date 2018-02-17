@@ -1436,12 +1436,12 @@ internal class Class15
 
 	public Class15()
 	{
-//		Class21.mKf3Qywz2M1Yy();
+//		
 	}
 
 	static Class15()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		Class15.curUserMode = UserMode.Basic;
 		Class15.CUR_MODEL = new byte[8]
 		{

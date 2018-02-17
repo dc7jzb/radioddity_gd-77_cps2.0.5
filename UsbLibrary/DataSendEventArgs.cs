@@ -8,7 +8,7 @@ namespace UsbLibrary
 
 		public DataSendEventArgs(byte[] data)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.data = data;
 		}

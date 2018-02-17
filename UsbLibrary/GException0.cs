@@ -7,7 +7,7 @@ namespace UsbLibrary
 	{
 		public GException0(string strMessage)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector(strMessage);
 		}
 

@@ -144,7 +144,7 @@ internal class Class12 : NumericUpDown
 
 	public Class12():base()
 	{
-//		Class21.mKf3Qywz2M1Yy();
+//		
 
 	}
 }

@@ -49,7 +49,7 @@ namespace DMR
 
 		public TreeNodeItem()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.Type = null;
 			this.Index = -1;
@@ -60,7 +60,7 @@ namespace DMR
 
 		public TreeNodeItem(ContextMenuStrip cms, Type type, Type subType, int count, int index, int imgIndex, IData data)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.Cms = cms;
 			this.Type = type;

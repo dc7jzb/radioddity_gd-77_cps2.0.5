@@ -30,7 +30,7 @@ internal class Class14
 
 	public Class14(int int_0, int int_1, string string_0)
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		this.Value = int_1;
 		this.method_1(int_0);
 		this.Name = string_0;

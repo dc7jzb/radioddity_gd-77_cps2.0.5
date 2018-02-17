@@ -216,7 +216,7 @@ namespace DMR
 
 			public ContactOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(ContactOne);
 				this.name = new byte[16];
 				this.callId = new byte[4];
@@ -331,7 +331,7 @@ namespace DMR
 
 			public Contact()
 			{
-				//Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.contactList = new ContactOne[1024];
@@ -975,7 +975,7 @@ namespace DMR
 
 		public ContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -1161,7 +1161,7 @@ namespace DMR
 
 		static ContactForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ContactForm.SZ_CALL_TYPE = new string[3]
 			{
 				"Group Call",

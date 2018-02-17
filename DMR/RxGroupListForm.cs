@@ -62,7 +62,7 @@ namespace DMR
 
 			public RxListOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(RxListOne);
 				this.name = new byte[16];
 				this.contactList = new ushort[15];
@@ -169,7 +169,7 @@ namespace DMR
 
 			public RxList()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.rxListIndex = new byte[128];
@@ -600,7 +600,7 @@ namespace DMR
 
 		public RxGroupListForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -819,7 +819,7 @@ namespace DMR
 
 		static RxGroupListForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			RxGroupListForm.data = new RxList();
 		}
 	}

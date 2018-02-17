@@ -8,7 +8,7 @@ internal class Class4 : ComboBox
 
 	public Class4():base()
 	{
-		//Class21.mKf3Qywz2M1Yy();
+		
 		this.ItemList = new Hashtable();
 		//base._002Ector();
 	}

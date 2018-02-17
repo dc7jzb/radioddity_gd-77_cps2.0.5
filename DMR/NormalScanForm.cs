@@ -244,7 +244,7 @@ namespace DMR
 
 			public NormalScanOne(int index)
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				this = default(NormalScanOne);
 				this.name = new byte[15];
 				this.chList = new ushort[32];
@@ -392,7 +392,7 @@ namespace DMR
 
 			public NormalScan()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				int num = 0;
 				this.scanListIndex = new byte[64];
@@ -605,7 +605,7 @@ namespace DMR
 
 			public NormalScanEx()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.priorityCh1 = new ushort[64];
 				this.priorityCh2 = new ushort[64];
@@ -955,7 +955,7 @@ namespace DMR
 
 		public NormalScanForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_8();
 			base.Scale(Class15.smethod_6());
@@ -1642,7 +1642,7 @@ namespace DMR
 
 		static NormalScanForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			NormalScanForm.SZ_PRIORITY_CH = new string[2]
 			{
 				"None",

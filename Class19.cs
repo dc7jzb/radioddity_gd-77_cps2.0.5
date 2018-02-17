@@ -15,36 +15,23 @@ internal class Class19
 	private const int HEAD_LEN = 4;
 
 	private const int MAX_COMM_LEN = 32;
-
 	private const byte CMD_WRITE = 87;
-
 	private const byte CMD_READ = 82;
-
 	private const byte CMD_CMD = 67;
-
 	private const byte CMD_BASE = 66;
-
 	private const int MaxReadTimeout = 5000;
-
 	private const int MaxWriteTimeout = 1000;
-
 	private const int MaxBuf = 160;
-
 	private const float IndexListPercent = 5f;
-
 	private const int HID_VID = 5538;
-
 	private const int HID_PID = 115;
+	private static readonly byte[] CMD_ENDR =   Encoding.ASCII.GetBytes("ENDR");
+	private static readonly byte[] CMD_ENDW =   Encoding.ASCII.GetBytes("ENDW");
+	private static readonly byte[] CMD_ACK=     new byte[1] {65};
+    private static readonly byte[] CMD_PRG =    new byte[7] {2,80,82,79,71,82,65};
+	private static readonly byte[] CMD_PRG2 =   new byte[2] {77,2};
 
-	private static readonly byte[] CMD_ENDR;
-
-	private static readonly byte[] CMD_ENDW;
-
-	private static readonly byte[] CMD_ACK;
-
-	private static readonly byte[] CMD_PRG;
-
-	private static readonly byte[] CMD_PRG2;
+  
 
 	public int[] START_ADDR;
 
@@ -880,35 +867,9 @@ internal class Class19
 
 	public Class19()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		this.START_ADDR = new int[0];
 		this.END_ADDR = new int[0];
 		//base._002Ector();
-	}
-
-	static Class19()
-	{
-		Class21.mKf3Qywz2M1Yy();
-		Class19.CMD_ENDR = Encoding.ASCII.GetBytes("ENDR");
-		Class19.CMD_ENDW = Encoding.ASCII.GetBytes("ENDW");
-		Class19.CMD_ACK = new byte[1]
-		{
-			65
-		};
-		Class19.CMD_PRG = new byte[7]
-		{
-			2,
-			80,
-			82,
-			79,
-			71,
-			82,
-			65
-		};
-		Class19.CMD_PRG2 = new byte[2]
-		{
-			77,
-			2
-		};
 	}
 }

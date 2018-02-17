@@ -653,14 +653,14 @@ internal class Class10
 
 	public Class10() : base()
 	{
-		//Class21.mKf3Qywz2M1Yy();
+		
 		this.START_ADDR = new int[0];
 		this.END_ADDR = new int[0];
 	}
 
 	static Class10()
 	{
-		//Class21.mKf3Qywz2M1Yy();
+		
 		Class10.CMD_ENDR = Encoding.ASCII.GetBytes("ENDR");
 		Class10.CMD_ENDW = Encoding.ASCII.GetBytes("ENDW");
 		Class10.CMD_ACK = new byte[1]

@@ -54,7 +54,7 @@ namespace DMR
 
 			public TextMsg()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.msgLen = new byte[32];
 				this.reserve = new byte[8];
@@ -323,7 +323,7 @@ namespace DMR
 
 		public TextMsgForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.txt = new Class11();
 			//base._002Ector();
 			this.method_0();
@@ -446,7 +446,7 @@ namespace DMR
 
 		static TextMsgForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			TextMsgForm.data = new TextMsg();
 		}
 	}

@@ -35,7 +35,7 @@ internal class Class11 : NativeWindow
 
 	public Class11():base()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		//base._002Ector();
 	}
 }

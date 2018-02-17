@@ -288,7 +288,7 @@ namespace DMR
 
 		public ContactsForm()
 		{
-			//Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -751,7 +751,7 @@ namespace DMR
 
 		static ContactsForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ContactsForm.SZ_HEADER_TEXT = new string[6]
 			{
 				"序号",

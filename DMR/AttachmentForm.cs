@@ -243,7 +243,7 @@ namespace DMR
 
 			public Attachment()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.reserve = new byte[2];
 				this.chFreq = new ushort[20];
@@ -667,7 +667,7 @@ namespace DMR
 
 		public AttachmentForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -827,7 +827,7 @@ namespace DMR
 
 		static AttachmentForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			AttachmentForm.SZ_PK1_KEY = new string[3]
 			{
 				"缺省",

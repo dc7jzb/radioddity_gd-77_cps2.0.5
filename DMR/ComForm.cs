@@ -96,7 +96,7 @@ namespace DMR
 
 		public ComForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.InitializeComponent();
 			base.Scale(Class15.smethod_6());

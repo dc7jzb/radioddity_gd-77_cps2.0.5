@@ -5,7 +5,7 @@ internal class Class1 : Stopwatch, IDisposable
 {
 	public Class1() : base()
 	{
-//		Class21.mKf3Qywz2M1Yy();
+//		
 		base.Start();
 	}
 

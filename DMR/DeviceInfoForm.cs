@@ -236,7 +236,7 @@ namespace DMR
 
 			public DeviceInfo()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 				this.lastPrgTime = new byte[6];
 				this.model = new byte[8];
@@ -606,7 +606,7 @@ namespace DMR
 
 		public DeviceInfoForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_0();
 			base.Scale(Class15.smethod_6());
@@ -818,7 +818,7 @@ namespace DMR
 
 		static DeviceInfoForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			DeviceInfoForm.data = new DeviceInfo();
 		}
 	}

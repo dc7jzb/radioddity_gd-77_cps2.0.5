@@ -32,7 +32,7 @@ internal class Class2 : GroupBox
 
 	public Class2()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		//base._002Ector();
 		this.method_1(false);
 		this.method_3(true);

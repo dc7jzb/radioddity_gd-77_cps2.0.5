@@ -8,22 +8,22 @@ namespace ReadWriteCsv
 
 		public CsvFileWriter(Stream stream) : base(stream)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		public CsvFileWriter(string filename):base (filename)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		public CsvFileWriter(Stream stream, Encoding encoding):base(stream, encoding)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		public CsvFileWriter(string path, bool append, Encoding encoding) : base(path, append, encoding)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector(path, append, encoding);
 		}
 

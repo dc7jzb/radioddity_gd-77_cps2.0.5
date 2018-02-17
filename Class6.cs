@@ -35,7 +35,7 @@ internal class Class6
 
 	private Class6(string string_0)
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		//base._002Ector();
 		Class6.smethod_1(string_0);
 	}
@@ -139,7 +139,7 @@ internal class Class6
 
 	static Class6()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		Class6.iniPath = Application.StartupPath + "\\Setup.ini";
 	}
 }

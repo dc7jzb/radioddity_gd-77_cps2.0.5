@@ -6,7 +6,7 @@ namespace UsbLibrary
 	{
 		public SpecifiedOutputReport(HIDDevice oDev) : base(oDev)
 		{
-			//Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		public bool SendData(byte[] data)

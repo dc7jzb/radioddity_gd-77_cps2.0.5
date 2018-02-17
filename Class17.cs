@@ -9,7 +9,7 @@ internal static class Class17
 	{
 		Application.EnableVisualStyles();
 		Application.SetCompatibleTextRenderingDefault(false);
-		Class21.mKf3Qywz2M1Yy();
+		
 		Application.Run(new MainForm());
 	}
 

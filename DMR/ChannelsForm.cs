@@ -99,7 +99,7 @@ namespace DMR
 
 		public ChannelsForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_2();
 			base.Scale(Class15.smethod_6());
@@ -767,7 +767,7 @@ namespace DMR
 
 		static ChannelsForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			ChannelsForm.SZ_HEADER_TEXT = new string[12]
 			{
 				"Number",

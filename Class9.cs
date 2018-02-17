@@ -37,7 +37,7 @@ internal class Class9 : Win32Usb, IFirmwareUpdate
 
 		public Class18(string string_0, SectorType sectorType_0, uint uint_0, uint uint_1, ushort ushort_0)
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.Name = string_0;
 			this.Type = sectorType_0;
 			this.dwStartAddress = uint_0;
@@ -1250,7 +1250,7 @@ internal class Class9 : Win32Usb, IFirmwareUpdate
 
 	public Class9()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		this.INVALID_HANDLE_VALUE = (IntPtr)(-1);
 		this.GUID_DFU = new Guid(1072171435u, 64401, 19637, 166, 67, 105, 103, 13, 82, 54, 110);
 		this.GUID_APP = new Guid(3415709970u, 20521, 16906, 174, 177, 52, 252, 10, 125, 87, 38);
@@ -1528,7 +1528,7 @@ internal class Class9 : Win32Usb, IFirmwareUpdate
 
 	static Class9()
 	{
-		Class21.mKf3Qywz2M1Yy();
+		
 		Class9.PACK_PRG = new byte[9]
 		{
 			162,

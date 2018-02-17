@@ -29,7 +29,7 @@ namespace UsbLibrary
 
 		public Report(HIDDevice oDev)
 		{
-			//Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		protected void SetBuffer(byte[] arrBytes)

@@ -14,7 +14,7 @@ namespace UsbLibrary
 
 		public SpecifiedInputReport(HIDDevice oDev) : base (oDev)
 		{
-			//Class21.mKf3Qywz2M1Yy();
+			
 		}
 
 		public override void ProcessData()

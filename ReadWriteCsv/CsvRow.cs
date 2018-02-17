@@ -12,7 +12,7 @@ namespace ReadWriteCsv
 
 		public CsvRow()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 		}
 	}

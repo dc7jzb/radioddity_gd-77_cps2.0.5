@@ -24,7 +24,7 @@ namespace DMR
 
 		public MyDataGridViewTextBoxEditingControl()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.ContextMenu = new ContextMenu();
 		}

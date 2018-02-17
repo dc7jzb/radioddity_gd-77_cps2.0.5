@@ -90,7 +90,7 @@ namespace DMR
 
 		public ZoneBasicForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_7();
 			base.Scale(Class15.smethod_6());

@@ -271,7 +271,7 @@ namespace DMR
 
 			public SignalingBasic()
 			{
-				Class21.mKf3Qywz2M1Yy();
+				
 				//base._002Ector();
 			}
 		}
@@ -444,7 +444,7 @@ namespace DMR
 
 		public SignalingBasicForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			//base._002Ector();
 			this.method_1();
 			base.Scale(Class15.smethod_6());
@@ -807,7 +807,7 @@ namespace DMR
 
 		static SignalingBasicForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			SignalingBasicForm.DefaultSignalingBasic = new SignalingBasic();
 			SignalingBasicForm.data = new SignalingBasic();
 		}

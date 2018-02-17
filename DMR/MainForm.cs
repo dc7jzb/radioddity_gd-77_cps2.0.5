@@ -904,7 +904,7 @@ namespace DMR
 
 		public MainForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			this.frmHelp = new HelpForm();
 			this.frmTree = new TreeForm();
 			this.lstTreeNodeItem = new List<TreeNodeItem>();
@@ -3267,7 +3267,7 @@ namespace DMR
 
 		static MainForm()
 		{
-			Class21.mKf3Qywz2M1Yy();
+			
 			MainForm.PreActiveMdiChild = null;
 			MainForm.dicHelp = new Dictionary<string, string>();
 			MainForm.dicTree = new Dictionary<string, string>();
