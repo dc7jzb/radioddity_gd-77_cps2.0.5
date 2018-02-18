@@ -856,7 +856,7 @@ namespace DMR
 				num = 0;
 				foreach (Class14 item in this.lstSelected.Items)
 				{
-					value.ChList[num] = (byte)item.Value;
+					value.ChList[num] = (ushort)item.Value;     //G4EML Correct type of scan list item from byte to ushort
 					num++;
 				}
 				NormalScanForm.data[num2] = value;
