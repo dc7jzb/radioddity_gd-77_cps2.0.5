@@ -13,7 +13,6 @@ internal class Class19
 	public delegate void Delegate1(object sender, FirmwareUpdateProgressEventArgs e);
 
 	private const int HEAD_LEN = 4;
-
 	private const int MAX_COMM_LEN = 32;
 	private const byte CMD_WRITE = 87;
 	private const byte CMD_READ = 82;
@@ -23,18 +22,17 @@ internal class Class19
 	private const int MaxWriteTimeout = 1000;
 	private const int MaxBuf = 160;
 	private const float IndexListPercent = 5f;
-	private const int HID_VID = 5538;
-	private const int HID_PID = 115;
+	private const int HID_VID = 0x15A2;
+	private const int HID_PID = 0x0073;
 	private static readonly byte[] CMD_ENDR =   Encoding.ASCII.GetBytes("ENDR");
 	private static readonly byte[] CMD_ENDW =   Encoding.ASCII.GetBytes("ENDW");
 	private static readonly byte[] CMD_ACK=     new byte[1] {65};
-    private static readonly byte[] CMD_PRG =    new byte[7] {2,80,82,79,71,82,65};
+    private static readonly byte[] CMD_PRG =    new byte[7] { 2, (byte)'P', (byte)'R', (byte)'O', (byte)'G', (byte)'R', (byte)'A' };// 80,82,79,71,82,65}
 	private static readonly byte[] CMD_PRG2 =   new byte[2] {77,2};
 
   
 
 	public int[] START_ADDR;
-
 	public int[] END_ADDR;
 
 	private Thread thread;
@@ -85,7 +83,7 @@ internal class Class19
 		}
 	}
 
-	public void method_6()
+	public void startCodeplugReadOrWriteInNewThread()
 	{
 		if (this.getIsRead())
 		{
@@ -121,7 +119,7 @@ internal class Class19
 		SpecifiedDevice specifiedDevice = null;
 		try
 		{
-			specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(5538, 115);//0x152A 0x0073
+			specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(HID_VID, HID_PID);//0x152A HID_PID
 			if (specifiedDevice == null)
 			{
 				if (this.OnFirmwareUpdateProgress != null)
@@ -562,7 +560,7 @@ internal class Class19
 		array3[4] = (byte)(hour / 10 << 4 | hour % 10);
 		array3[5] = (byte)(minute / 10 << 4 | minute % 10);
 		Array.Copy(array3, 0, array2, Class15.ADDR_DEVICE_INFO + Class15.OFS_LAST_PRG_TIME, 6);
-		SpecifiedDevice specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(5538, 115);
+		SpecifiedDevice specifiedDevice = SpecifiedDevice.FindSpecifiedDevice(HID_VID, 0x0073);
 		if (specifiedDevice == null)
 		{
 			if (this.OnFirmwareUpdateProgress != null)

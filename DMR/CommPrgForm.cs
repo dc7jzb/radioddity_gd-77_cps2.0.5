@@ -150,7 +150,7 @@ namespace DMR
 				};
 			}
 			this.hidComm.method_9(this.method_0);
-			this.hidComm.method_6();
+            this.hidComm.startCodeplugReadOrWriteInNewThread();
 		}
 
 		private void CommPrgForm_FormClosing(object sender, FormClosingEventArgs e)
