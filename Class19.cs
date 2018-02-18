@@ -504,7 +504,7 @@ internal class Class19
 						this.OnFirmwareUpdateProgress(this, new FirmwareUpdateProgressEventArgs(0f, Class15.SZ_MODEL_NOT_MATCH, true, true));
 					}
 					return;
-					continue;
+					continue;// Roger Clark. There is a known compiler warning here. This may be an artifact caused by the decompiler
 					end_IL_02a2:
 					break;
 				}

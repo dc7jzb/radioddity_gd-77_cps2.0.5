@@ -661,8 +661,9 @@ namespace DMR
 
 		private const int INC_RESP_HOLD_TIME = 1;
 
-		private const decimal SCL_RESP_HOLD_TIME = 0.1m;
-
+		/* Roger Clark Removed unused cnstants to prevent warnings
+         private const decimal SCL_RESP_HOLD_TIME = 0.1m;
+        */
 		private const int DEF_RESP_HOLD_TIME = 50;
 
 		private const int LEN_RESP_HOLD_TIME = 4;
@@ -672,9 +673,9 @@ namespace DMR
 		private const int MAX_DECODE_TIME = 50;
 
 		private const int INC_DECODE_TIME = 1;
-
+		/* Roger Clark Removed unused cnstants to prevent warnings
 		private const decimal SCL_DECODE_TIME = 0.1m;
-
+        */
 		private const int DEF_DECODE_TIME = 25;
 
 		private const int LEN_DECODE_TIME = 3;
@@ -1598,6 +1599,7 @@ namespace DMR
 				"Off",
 				"On"
 			};
+
 			//RJC DtmfForm.SCL_RESP_HOLD_TIME = 0.1m;
 			//RJC DtmfForm.SCL_DECODE_TIME = 0.1m;
 			DtmfForm.SZ_RATE = new string[3]

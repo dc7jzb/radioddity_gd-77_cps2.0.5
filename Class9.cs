@@ -12,6 +12,10 @@ using System.Threading;
 using System.Windows.Forms;
 using UsbLibrary;
 
+/* Roger Clark
+ * Note. This Class is potentially unused, as it seems to relate to firmware update which is not handled by the CPS application
+ */
+
 internal class Class9 : Win32Usb, IFirmwareUpdate
 {
 	public class Class18
@@ -148,7 +152,7 @@ internal class Class9 : Win32Usb, IFirmwareUpdate
 	private ushort Version;
 	private string ImageName;
 	private string DFU_DevicePath;
-	private SafeFileHandle _ParentHandle;
+	private SafeFileHandle _ParentHandle;// Roger Clark. As this is uniniialised, it will potentially cause a crash if method_9() is ever called
 	private List<Class18> Sectors;
 	private ushort MaxWriteBlockSize;
 	private uint[] CrcTable;
