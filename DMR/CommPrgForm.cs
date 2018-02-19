@@ -67,7 +67,7 @@ namespace DMR
 			base.Controls.Add(this.btnCancel);
 			base.Controls.Add(this.prgComm);
 			base.Controls.Add(this.lblPrompt);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.FormBorderStyle = FormBorderStyle.FixedDialog;
 			base.Margin = new Padding(3, 4, 3, 4);
 			base.Name = "CommPrgForm";

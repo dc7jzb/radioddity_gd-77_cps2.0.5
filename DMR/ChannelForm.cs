@@ -4360,7 +4360,7 @@ namespace DMR
 			base.Controls.Add(this.pnlChannel);
 			base.Controls.Add(this.tsrCh);
 			base.Controls.Add(this.mnsCh);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);//, GraphicsUnit.Point, 0);
 			base.MainMenuStrip = this.mnsCh;
 			base.Name = "ChannelForm";
 			this.Text = "Channel";

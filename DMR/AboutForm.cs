@@ -76,7 +76,7 @@ namespace DMR
 			base.Controls.Add(this.btnClose);
 			base.Controls.Add(this.lblCompany);
 			base.Controls.Add(this.lblVersion);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Margin = new Padding(3, 4, 3, 4);
 			base.Name = "AboutForm";
 			this.Text = "About";

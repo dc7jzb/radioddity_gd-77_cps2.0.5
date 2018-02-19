@@ -1006,7 +1006,7 @@ namespace DMR
 			this.imgMain.Images.Clear();
 			this.imgMain.Images.AddStrip(Resources.smethod_0());
 			base.AutoScaleMode = AutoScaleMode.Font;
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			this.GetAllLang();
 			string b = Class6.smethod_4("Setup", "Language", "Chinese.xml");
 			foreach (ToolStripMenuItem dropDownItem in this.tsmiLanguage.DropDownItems)
@@ -2466,29 +2466,37 @@ namespace DMR
 
 		private void tsbtnRead_Click(object sender, EventArgs e)
 		{
-			this.closeAllForms();
-			CommPrgForm commPrgForm = new CommPrgForm();
-			commPrgForm.StartPosition = FormStartPosition.CenterParent;
-			commPrgForm.IsRead = true;
-			commPrgForm.ShowDialog();
-			if (commPrgForm.IsSucess)
-			{
-				this.InitTree();
-			}
+            DialogResult result = MessageBox.Show("Are you sure you want to read the codeplug from the GD-77?\nThis will overwrite the current codeplug.", "Please confirm", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                this.closeAllForms();
+                CommPrgForm commPrgForm = new CommPrgForm();
+                commPrgForm.StartPosition = FormStartPosition.CenterParent;
+                commPrgForm.IsRead = true;
+                commPrgForm.ShowDialog();
+                if (commPrgForm.IsSucess)
+                {
+                    this.InitTree();
+                }
+            }
 		}
 
 		private void tsbtnWrite_Click(object sender, EventArgs e)
 		{
-			if (base.ActiveMdiChild != null)
-			{
-				base.ActiveMdiChild.ValidateChildren();
-			}
-			GeneralSetForm.data.KillState = 0;
-			this.method_3();
-			CommPrgForm commPrgForm = new CommPrgForm();
-			commPrgForm.StartPosition = FormStartPosition.CenterParent;
-			commPrgForm.IsRead = false;
-			commPrgForm.ShowDialog();
+            DialogResult result = MessageBox.Show("Are you sure you want to write this codeplug to the GD-77?\nThis will overwrite codeplug currently in the GD-77", "Please confirm", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                if (base.ActiveMdiChild != null)
+                {
+                    base.ActiveMdiChild.ValidateChildren();
+                }
+                GeneralSetForm.data.KillState = 0;
+                this.method_3();
+                CommPrgForm commPrgForm = new CommPrgForm();
+                commPrgForm.StartPosition = FormStartPosition.CenterParent;
+                commPrgForm.IsRead = false;
+                commPrgForm.ShowDialog();
+            }
 		}
 
 		private void tsmiBasic_Click(object sender, EventArgs e)

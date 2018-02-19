@@ -1669,7 +1669,7 @@ namespace DMR
 			base.Controls.Add(this.grpContact);
 			base.Controls.Add(this.grpScan);
 			base.Controls.Add(this.grpBasic);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "MenuForm";
 			this.Text = "Menu";
 			base.Load += this.MenuForm_Load;

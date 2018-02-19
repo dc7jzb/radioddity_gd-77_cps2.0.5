@@ -110,7 +110,7 @@ namespace DMR
 			base.Controls.Add(this.btnOk);
 			base.Controls.Add(this.txtPwd);
 			base.Controls.Add(this.lblPwd);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "PowerPwdForm";
 			base.StartPosition = FormStartPosition.CenterScreen;
 			this.Text = "Password";

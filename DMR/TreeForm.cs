@@ -27,7 +27,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(284, 262);
 			base.DockAreas = (DockAreas.DockLeft | DockAreas.DockRight | DockAreas.DockTop | DockAreas.DockBottom);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "TreeForm";
 			base.Padding = new Padding(0, 2, 0, 2);
 			base.ShowHint = DockState.DockLeftAutoHide;

@@ -125,7 +125,7 @@ namespace DMR
 			base.ClientSize = new Size(373, 192);
 			base.Controls.Add(this.lblInfo);
 			base.Controls.Add(this.btnClose);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "WaitForm";
 			this.Text = "WaitForm";
 			base.Load += this.WaitForm_Load;

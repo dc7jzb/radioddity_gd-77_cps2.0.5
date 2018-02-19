@@ -221,7 +221,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(729, 381);
 			base.Controls.Add(this.pnlContact);
-            this.Font = new Font("Arial", 9f, FontStyle.Regular);//Roger Clark , GraphicsUnit.Point, 134);
+            this.Font = this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ContactsForm";
 			this.Text = "Contacts";
 			base.Load += this.ContactsForm_Load;

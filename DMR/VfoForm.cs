@@ -3043,7 +3043,7 @@ namespace DMR
 			base.ClientSize = new Size(1104, 684);
 			base.Controls.Add(this.pnlChannel);
 			base.Controls.Add(this.mnsCh);
-			this.Font = new Font("Times New Roman", 9f, FontStyle.Regular, GraphicsUnit.Point, 134);
+            this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.MainMenuStrip = this.mnsCh;
 			base.Name = "VfoForm";
 			this.Text = "VFO";

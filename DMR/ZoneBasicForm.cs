@@ -318,7 +318,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(520, 197);
 			base.Controls.Add(this.pnlZoneBasic);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ZoneBasicForm";
 			this.Text = "Zone";
 			base.Load += this.ZoneBasicForm_Load;

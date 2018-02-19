@@ -84,7 +84,7 @@ namespace DMR
 			base.Controls.Add(this.btnOK);
 			base.Controls.Add(this.cmbPort);
 			base.Controls.Add(this.lblPort);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.FormBorderStyle = FormBorderStyle.FixedDialog;
 			base.Margin = new Padding(3, 4, 3, 4);
 			base.Name = "ComForm";

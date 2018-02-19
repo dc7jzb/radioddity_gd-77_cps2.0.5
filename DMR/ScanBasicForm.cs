@@ -585,7 +585,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(465, 328);
 			base.Controls.Add(this.pnlScanBasic);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ScanBasicForm";
 			this.Text = "Scan";
 			base.Load += this.ScanBasicForm_Load;

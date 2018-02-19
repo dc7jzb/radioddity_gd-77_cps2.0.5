@@ -247,7 +247,7 @@ namespace DMR
 			this.dgvContact.AllowUserToAddRows = false;
 			dataGridViewCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 			dataGridViewCellStyle.BackColor = SystemColors.Control;
-			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular);
 			dataGridViewCellStyle.ForeColor = SystemColors.WindowText;
 			dataGridViewCellStyle.SelectionBackColor = SystemColors.Highlight;
 			dataGridViewCellStyle.SelectionForeColor = SystemColors.HighlightText;

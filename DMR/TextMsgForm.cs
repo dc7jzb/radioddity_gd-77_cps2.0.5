@@ -197,7 +197,7 @@ namespace DMR
 			this.dgvMsg.AllowUserToAddRows = false;
 			dataGridViewCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 			dataGridViewCellStyle.BackColor = SystemColors.Control;
-			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular);
 			dataGridViewCellStyle.ForeColor = SystemColors.WindowText;
 			dataGridViewCellStyle.SelectionBackColor = SystemColors.Highlight;
 			dataGridViewCellStyle.SelectionForeColor = SystemColors.HighlightText;
@@ -238,7 +238,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(796, 573);
 			base.Controls.Add(this.pnlTextMsg);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "TextMsgForm";
 			this.Text = "Text Message";
 			base.Load += this.TextMsgForm_Load;

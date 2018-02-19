@@ -214,7 +214,7 @@ namespace DMR
 			base.Controls.Add(this.chkEarlyUnmute);
 			base.Controls.Add(this.chkChMark);
 			base.Controls.Add(this.chkTalkback);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "VoteScanForm";
 			this.Text = "Vote Scan";
 			base.Load += this.VoteScanForm_Load;

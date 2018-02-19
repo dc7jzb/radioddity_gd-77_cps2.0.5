@@ -789,7 +789,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(521, 397);
 			base.Controls.Add(this.pnlSignalingBasic);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "SignalingBasicForm";
 			this.Text = "Signaling System";
 			base.Load += this.SignalingBasicForm_Load;

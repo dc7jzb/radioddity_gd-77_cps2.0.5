@@ -748,7 +748,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(1102, 493);
 			base.Controls.Add(this.pnlChannel);
-			this.Font = new Font("Times New Roman", 9f, FontStyle.Regular, GraphicsUnit.Point, 134);
+			this.Font = this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ChannelsForm";
 			this.Text = "Channels";
 			base.Load += this.ChannelsForm_Load;

@@ -494,7 +494,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(724, 562);
 			base.Controls.Add(this.pnlRxGrpList);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "RxGroupListForm";
 			this.Text = "Rx Group List";
 			base.Load += this.RxGroupListForm_Load;

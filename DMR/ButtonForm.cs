@@ -526,7 +526,7 @@ namespace DMR
 			this.dgvOneTouch.AllowUserToAddRows = false;
 			dataGridViewCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 			dataGridViewCellStyle.BackColor = SystemColors.Control;
-			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			dataGridViewCellStyle.Font = new Font("Arial", 10f, FontStyle.Regular);
 			dataGridViewCellStyle.ForeColor = SystemColors.WindowText;
 			dataGridViewCellStyle.SelectionBackColor = SystemColors.Highlight;
 			dataGridViewCellStyle.SelectionForeColor = SystemColors.HighlightText;
@@ -719,7 +719,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(627, 499);
 			base.Controls.Add(this.pnlButton);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ButtonForm";
 			this.Text = "Buttons";
 			base.Load += this.ButtonForm_Load;

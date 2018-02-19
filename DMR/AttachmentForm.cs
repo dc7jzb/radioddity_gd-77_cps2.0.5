@@ -552,7 +552,7 @@ namespace DMR
 			this.dgvAttachment.AllowUserToAddRows = false;
 			dataGridViewCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 			dataGridViewCellStyle.BackColor = SystemColors.Control;
-			dataGridViewCellStyle.Font = new Font("Times New Roman", 9f, FontStyle.Regular, GraphicsUnit.Point, 134);
+			dataGridViewCellStyle.Font = this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			dataGridViewCellStyle.ForeColor = SystemColors.WindowText;
 			dataGridViewCellStyle.SelectionBackColor = SystemColors.Highlight;
 			dataGridViewCellStyle.SelectionForeColor = SystemColors.HighlightText;
@@ -578,7 +578,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(759, 553);
 			base.Controls.Add(this.pnlAttachment);
-			this.Font = new Font("Times New Roman", 9f, FontStyle.Regular, GraphicsUnit.Point, 134);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "AttachmentForm";
 			this.Text = "Attachment";
 			base.Load += this.AttachmentForm_Load;

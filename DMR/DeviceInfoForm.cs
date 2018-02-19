@@ -540,7 +540,7 @@ namespace DMR
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(680, 438);
 			base.Controls.Add(this.pnlDeviceInfo);
-			this.Font = new Font("Arial", 10f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.KeyPreview = true;
 			base.Name = "DeviceInfoForm";
 			this.Text = "Basic Information";

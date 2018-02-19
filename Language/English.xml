@@ -730,7 +730,7 @@
 		<Item Id="KeyPressPrint" Text="Please input print" />
 		<Item Id="DeviceNotFound" Text="Device not found" />
 		<Item Id="ModelNotMatch" Text="Model mismatch" />
-		<Item Id="PromptKey1" Text="Does the software exit and save the file?" />
+		<Item Id="PromptKey1" Text="Do you want to save the codeplug before exiting?" />
 		<Item Id="PromptKey2" Text="Whether the new, will be restored to the initial state!" />
 		<Item Id="DataFormatError" Text="Data format error" />
 		<Item Id="FirstNotDelete" Text="The first row cannot be deleted" />
