@@ -55,9 +55,10 @@ namespace DMR
 			this.lblVersion.TabIndex = 0;
 			this.lblVersion.Text = "v1.0.0";
 			this.lblVersion.TextAlign = ContentAlignment.MiddleCenter;
-			this.lblCompany.Location = new Point(31, 117);
+			this.lblCompany.Location = new Point(100, 117);
 			this.lblCompany.Name = "lblCompany";
-			this.lblCompany.Size = new Size(351, 20);
+			//this.lblCompany.Size = new Size(351, 20);
+            this.lblCompany.AutoSize = true;
 			this.lblCompany.TabIndex = 0;
 			this.lblCompany.Text = "Company";
 			this.lblCompany.TextAlign = ContentAlignment.MiddleCenter;

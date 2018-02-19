@@ -6,8 +6,8 @@
 	<Language Id="Eng" Text="English" />
 	<AboutForm Text="About">
 		<Controls>
-			<Control Id="lblVersion" Text="v2.0.1" />
-			<Control Id="lblCompany" Text="Radioddity" />
+			<Control Id="lblVersion" Text="v2.0.5" />
+			<Control Id="lblCompany" Text="Radioddity and GD-77 Community" />
 			<Control Id="btnClose" Text="OK" />
 		</Controls>
 	</AboutForm>
@@ -355,7 +355,7 @@
 	<HelpForm Text="HelpView">
 		<Controls />
 	</HelpForm>
-	<MainForm Text="Program Software">
+	<MainForm Text="Radioddity GD-77 CPS 2.0.5 Community Edition">
 		<TreeView>
 			<TreeNode Id="Model" Text="GD-77" />
 			<TreeNode Id="BasicInfo" Text="Basic Information" />

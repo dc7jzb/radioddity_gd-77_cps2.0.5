@@ -868,7 +868,7 @@ namespace DMR
 			base.MainMenuStrip = this.mnsMain;
 			base.Margin = new Padding(3, 4, 3, 4);
 			base.Name = "MainForm";
-			this.Text = "Program Software";
+			this.Text = "Radioddity GD-77 CPS - Community Edition";
 			base.WindowState = FormWindowState.Maximized;
 			base.Load += this.MainForm_Load;
 			base.MdiChildActivate += this.MainForm_MdiChildActivate;
