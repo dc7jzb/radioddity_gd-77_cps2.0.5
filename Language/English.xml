@@ -672,7 +672,7 @@
 			<Item Id="UnmuteRule" Text="Std Unmute Mute,And Unmute Mute,And Unmute Or Mute" />
 			<Item Id="PttidType" Text="None,Only Front,Only Post,Front and Post" />
 			<Item Id="Arts" Text="Disable,Tx,Rx,Tx and Rx" />
-			<Item Id="TimingPreference" Text="Preferred,Eligibel,Ineligibel" />
+			<Item Id="TimingPreference" Text="Preferred,Eligible,Ineligible" />
 			<Item Id="Ars" Text="Disable,System Change" />
 			<Item Id="KeySwitch" Text="Off,On" />
 			<Item Id="" Text="None,+,-" />
@@ -731,7 +731,7 @@
 		<Item Id="DeviceNotFound" Text="Device not found" />
 		<Item Id="ModelNotMatch" Text="Model mismatch" />
 		<Item Id="PromptKey1" Text="Do you want to save the codeplug before exiting?" />
-		<Item Id="PromptKey2" Text="Whether the new, will be restored to the initial state!" />
+		<Item Id="PromptKey2" Text="Do you want to load a new default codeplug? All current data will be replaced." />
 		<Item Id="DataFormatError" Text="Data format error" />
 		<Item Id="FirstNotDelete" Text="The first row cannot be deleted" />
 		<Item Id="OpenPortFail" Text="Failed to open serial port" />
