@@ -1158,7 +1158,7 @@ namespace DMR
 						form.Tag = treeNodeItem.Index;
 					}
 					disp.DispData();
-					break;
+                    return form;
 				}
 				if (treeNodeItem.Type != null)
 				{
