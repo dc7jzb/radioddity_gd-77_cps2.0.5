@@ -255,9 +255,7 @@
     <None Include="DockPanel.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="IsSetup.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="IsSetup.ini" />
     <None Include="Language\English.chm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -312,9 +310,8 @@
     <Content Include="Language\English.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="STTubeDevice30.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="STDFU.dll" />
+    <Content Include="STTubeDevice30.dll" />
     <Content Include="DMR_32512.ico" />
     <Content Include="Tone.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
