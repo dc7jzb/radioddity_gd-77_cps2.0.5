@@ -1639,6 +1639,13 @@ namespace DMR
 					byte[] array = new byte[VfoForm.SPACE_CH];
 					Array.Copy(data, num2, array, 0, array.Length);
 					this.chList[num] = (ChannelOne)Class15.smethod_62(array, typeof(ChannelOne));
+
+                    // Roger Clark. Workaround for bug in firmware 3.0.6 where Dual Direct Capacity Mode must NOT be enabled in Analog mode
+                    if (this.chList[num].ChMode == (int)ChModeE.Analog && this.chList[num].DualCapacity == true)
+                    {
+                        this.chList[num].DualCapacity = false;
+                    }
+
 					num2 += array.Length;
 				}
 			}
