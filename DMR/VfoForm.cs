@@ -2898,7 +2898,7 @@ namespace DMR
 			this.cmbChMode.Name = "cmbChMode";
 			this.cmbChMode.Size = new Size(120, 20);
 			this.cmbChMode.TabIndex = 1;
-			this.cmbChMode.SelectedIndexChanged += this.xnJqEnXiQy;
+			this.cmbChMode.SelectedIndexChanged += this.modeChangedHandler;
 			this.lblChName.Location = new Point(38, 56);
 			this.lblChName.Name = "lblChName";
 			this.lblChName.Size = new Size(47, 20);
@@ -3335,7 +3335,7 @@ namespace DMR
 		{
 		}
 
-		private void xnJqEnXiQy(object sender, EventArgs e)
+		private void modeChangedHandler(object sender, EventArgs e)
 		{
 			int num = 0;
 			int selectedIndex = this.cmbChMode.SelectedIndex;
@@ -3346,6 +3346,7 @@ namespace DMR
 				num = 2;
 				this.grpAnalog.Enabled = true;
 				this.grpDigit.Enabled = false;
+                this.chkDualCapacity.Checked = false;// Roger Clark. Fix for bug in firmware, where Dual Direct Capacity must not be enabled in Analog mode
 				Class15.smethod_37(this.cmbAdmitCriteria, VfoForm.SZ_ADMIT_CRITERICA);
 				break;
 			case 1:
@@ -3525,6 +3526,7 @@ namespace DMR
 
 		private void chkDualCapacity_CheckedChanged(object sender, EventArgs e)
 		{
+            Console.Write("chkDualCapacity_CheckedChanged");
 		}
 
 		private void method_7()
