@@ -11,6 +11,7 @@ namespace DMR
 		private Label lblPrompt;
 		private ProgressBar prgComm;
 		private Button btnCancel;
+        private Button btnOK;
 		private Class9 firmwareUpdate;
 		private Class10 portComm;
 		private Class19 hidComm;
@@ -42,17 +43,23 @@ namespace DMR
 			this.lblPrompt = new Label();
 			this.prgComm = new ProgressBar();
 			this.btnCancel = new Button();
+            this.btnOK = new Button();
 			base.SuspendLayout();
 			this.lblPrompt.BorderStyle = BorderStyle.Fixed3D;
 			this.lblPrompt.Location = new Point(43, 118);
 			this.lblPrompt.Name = "lblPrompt";
 			this.lblPrompt.Size = new Size(380, 26);
 			this.lblPrompt.TabIndex = 0;
+            this.lblPrompt.TextAlign = ContentAlignment.MiddleCenter;
+            //this.lblPrompt.Text = "";// Percentage display goes here
+
+
 			this.prgComm.Location = new Point(43, 70);
 			this.prgComm.Margin = new Padding(3, 4, 3, 4);
 			this.prgComm.Name = "prgComm";
 			this.prgComm.Size = new Size(380, 31);
 			this.prgComm.TabIndex = 1;
+
 			this.btnCancel.Location = new Point(184, 161);
 			this.btnCancel.Margin = new Padding(3, 4, 3, 4);
 			this.btnCancel.Name = "btnCancel";
@@ -61,10 +68,23 @@ namespace DMR
 			this.btnCancel.Text = "Cancel";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			this.btnCancel.Click += this.btnCancel_Click;
+
+            this.btnOK.Location = new Point(336, 161);
+            this.btnOK.Margin = new Padding(3, 4, 3, 4);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new Size(87, 31);
+            this.btnOK.TabIndex = 3;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += this.btnOK_Click;
+            this.btnOK.Visible = false;
+
+
 			base.AutoScaleDimensions = new SizeF(7f, 16f);
 			base.AutoScaleMode = AutoScaleMode.Font;
 			base.ClientSize = new Size(468, 214);
 			base.Controls.Add(this.btnCancel);
+            base.Controls.Add(this.btnOK);
 			base.Controls.Add(this.prgComm);
 			base.Controls.Add(this.lblPrompt);
 			this.Font = new Font("Arial", 10f, FontStyle.Regular);
@@ -167,6 +187,12 @@ namespace DMR
 			base.Close();
 		}
 
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            base.Close();
+        }
+
+
 		private void method_0(object sender, FirmwareUpdateProgressEventArgs e)
 		{
 			if (this.prgComm.InvokeRequired)
@@ -183,25 +209,37 @@ namespace DMR
 			}
 			else if (e.Closed)
 			{
+                /* Roger Clark. Prevent the form closing immediatly after Read or Write complete
 				this.Refresh();
 				base.Close();
+                */
 			}
 			else
 			{
 				this.prgComm.Value = (int)e.Percentage;
-				this.lblPrompt.Text = string.Format("{0}%", this.prgComm.Value);
-				if (e.Percentage == (float)this.prgComm.Maximum)
-				{
-					this.IsSucess = true;
+	            if (e.Percentage == (float)this.prgComm.Maximum)
+                {
+                    this.IsSucess = true;
+                    
+                    
 					if (this.IsRead)
 					{
-						MessageBox.Show(Class15.dicCommon["ReadComplete"]);
+						//MessageBox.Show(Class15.dicCommon["ReadComplete"]);
+                        this.lblPrompt.Text = "Read complete";
 					}
 					else
 					{
-						MessageBox.Show(Class15.dicCommon["WriteComplete"]);
+						//MessageBox.Show(Class15.dicCommon["WriteComplete"]);
+                        this.lblPrompt.Text = "Write complete";
 					}
-				}
+                    this.btnOK.Visible = true;
+                    this.btnCancel.Visible = false;
+                     
+                }
+                else
+                {
+                    this.lblPrompt.Text = string.Format("{0}%", this.prgComm.Value);
+                }
 			}
 		}
 	}
