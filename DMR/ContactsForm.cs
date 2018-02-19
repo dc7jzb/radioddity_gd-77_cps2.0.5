@@ -219,7 +219,7 @@ namespace DMR
 			this.dataGridViewTextBoxColumn5.ReadOnly = true;
 			base.AutoScaleDimensions = new SizeF(6f, 12f);
 			base.AutoScaleMode = AutoScaleMode.Font;
-			base.ClientSize = new Size(729, 381);
+			base.ClientSize = new Size(800, 381);
 			base.Controls.Add(this.pnlContact);
             this.Font = this.Font = new Font("Arial", 10f, FontStyle.Regular);
 			base.Name = "ContactsForm";
