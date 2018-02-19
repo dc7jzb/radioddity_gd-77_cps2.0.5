@@ -2516,7 +2516,7 @@ namespace DMR
 
 		private void tsmiHelp_Click(object sender, EventArgs e)
 		{
-			this.frmHelp.Show(this.dockPanel, DockState.Hidden);
+            this.frmHelp.Show(this.dockPanel);// Roger Clark. Fixed issue where forms can't be shown when set to Dockstate of hidden
 		}
 
 		private void tsmiToolBar_Click(object sender, EventArgs e)
